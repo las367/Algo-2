@@ -1,5 +1,6 @@
 package Challenge1.Algo;
 
+import java.io.InputStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -27,9 +28,9 @@ public class Console {
         int[] toReturn = new int[2];
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter number for x: ");
+        System.out.print("Enter number for x: ");
         toReturn[0] = readIntegerFromStdin(in.next());
-        System.out.println("\nEnter number for y: ");
+        System.out.print("\nEnter number for y: ");
         toReturn[1] = readIntegerFromStdin(in.next());
 
         return toReturn;

@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d758f26-02aa-4a63-a042-c9881cfc7a76" name="Default Changelist" comment="not sure though, but just accidentally deleted mainapp.....&#10;not sure bout the other methods tbh">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge1-Algo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge1-Algo.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge1-Algo.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge1-Algo.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge1-Algo.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/CommandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestIteCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestRecCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubItCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubRecCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/SiebDesEratos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/ConsoleTest.java" afterDir="false" />
+    <list default="true" id="7d758f26-02aa-4a63-a042-c9881cfc7a76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge1-Algo.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge1-Algo.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge1-Algo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge1-Algo.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/SiebDesEratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/SiebDesEratos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +156,21 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Challenge1.Algo.MainApp" />
+      <module name="Challenge1-Algo.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Challenge1.Algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -202,6 +201,11 @@
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -214,6 +218,14 @@
       <option name="presentableId" value="Default" />
       <updated>1586361503504</updated>
     </task>
+    <task id="LOCAL-00001" summary="not sure though, but just accidentally deleted mainapp.....&#10;not sure bout the other methods tbh">
+      <created>1586367790373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586367790373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,10 +243,34 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2668" y="250" width="475" height="590" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586364622443" />
-    <state x="2446" y="52" width="817" height="986" key="CommitChangelistDialog2" timestamp="1586367766662">
+    <state x="2593" y="293" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586501517533">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2446" y="52" width="817" height="986" key="CommitChangelistDialog2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586367766662" />
+    <state x="2593" y="293" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586501517533" />
+    <state x="2446" y="52" width="817" height="986" key="CommitChangelistDialog2" timestamp="1586367790064">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2446" y="52" width="817" height="986" key="CommitChangelistDialog2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586367790064" />
+    <state width="1543" height="5" key="GridCell.Tab.0.bottom" timestamp="1586508658809">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1543" height="5" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
+    <state width="1543" height="5" key="GridCell.Tab.0.center" timestamp="1586508658809">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1543" height="5" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
+    <state width="1543" height="5" key="GridCell.Tab.0.left" timestamp="1586508658809">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1543" height="5" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
+    <state width="1543" height="5" key="GridCell.Tab.0.right" timestamp="1586508658809">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1543" height="5" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
+    <state x="2529" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1586508674279">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2529" y="371" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508674278" />
     <state x="2634" y="240" width="442" height="610" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586361741782">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
