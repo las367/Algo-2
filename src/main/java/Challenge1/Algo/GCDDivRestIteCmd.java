@@ -15,7 +15,7 @@ public class GCDDivRestIteCmd implements ICommand {
     @Override
     public void execute() {
 
-        int[] nums = Console.input();
+        int[] nums = Console.askTwoInputs();
         ergebnis = euclidDivisionRestRecursive(nums[0], nums[1]);
     }
 

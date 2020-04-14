@@ -9,30 +9,24 @@ import static org.junit.Assert.*;
 
 public class ConsoleTest {
 
-    Console console = new Console();
-    Scanner in = new Scanner(System.in);
-
     @Test
     public void readIntegerFromStdin() {
 
-        try {
-            //simulating System.in
-            String data = "1";
-            int num = console.readIntegerFromStdin(data);
-        } catch (NumberFormatException e) {
-            readStringFromStdin();
-        }
+        String param = "1";
+        //richtige Eingabe
+        assertEquals(1, Console.readIntegerFromStdin(param));
+
+        String falscheParam = "One";
+        Console.readStringFromStdin(falscheParam);
     }
 
     @Test
     public void readStringFromStdin() {
 
-        try {
-            //simulating System.in
-            String data = "Mustermann";
-            String text = console.readStringFromStdin(data);
-        } catch (InputMismatchException e) {
-            readStringFromStdin();
-        }
+        String param = "One";
+        assertEquals("One", Console.readStringFromStdin(param));
+
+        String falscheParam = "1";
+        Console.readIntegerFromStdin(falscheParam);
     }
 }

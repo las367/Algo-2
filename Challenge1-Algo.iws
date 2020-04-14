@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d758f26-02aa-4a63-a042-c9881cfc7a76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge1-Algo.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge1-Algo.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge1-Algo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge1-Algo.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestIteCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestIteCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestRecCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDDivRestRecCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubItCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubItCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubRecCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/GCDSubRecCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/SiebDesEratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Challenge1/Algo/SiebDesEratos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/ConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Challenge1/Algo/ConsoleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.ConsoleTest.readIntegerFromStdin">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -178,6 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsoleTest.readIntegerFromStdin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Challenge1.Algo.ConsoleTest.readIntegerFromStdin&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -203,6 +224,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConsoleTest.readIntegerFromStdin" />
         <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
@@ -251,29 +273,42 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2446" y="52" width="817" height="986" key="CommitChangelistDialog2/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586367790064" />
-    <state width="1543" height="5" key="GridCell.Tab.0.bottom" timestamp="1586508658809">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="720" y="293" width="424" height="515" key="FileChooserDialogImpl" timestamp="1586681395676">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state x="720" y="293" width="424" height="515" key="FileChooserDialogImpl/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586681395676" />
+    <state width="1543" height="285" key="GridCell.Tab.0.bottom" timestamp="1586875448307">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1543" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586875448307" />
     <state width="1543" height="5" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
-    <state width="1543" height="5" key="GridCell.Tab.0.center" timestamp="1586508658809">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1543" height="285" key="GridCell.Tab.0.center" timestamp="1586875448306">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state width="1543" height="285" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586875448306" />
     <state width="1543" height="5" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
-    <state width="1543" height="5" key="GridCell.Tab.0.left" timestamp="1586508658809">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1543" height="285" key="GridCell.Tab.0.left" timestamp="1586875448306">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state width="1543" height="285" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586875448306" />
     <state width="1543" height="5" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
-    <state width="1543" height="5" key="GridCell.Tab.0.right" timestamp="1586508658809">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1543" height="285" key="GridCell.Tab.0.right" timestamp="1586875448306">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state width="1543" height="285" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586875448306" />
     <state width="1543" height="5" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508658809" />
-    <state x="2529" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1586508674279">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="609" y="391" key="com.intellij.ide.util.TipDialog" timestamp="1586874969078">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
+    <state x="609" y="391" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586874969078" />
     <state x="2529" y="371" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586508674278" />
     <state x="2634" y="240" width="442" height="610" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586361741782">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2634" y="240" width="442" height="610" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586361741782" />
+    <state x="326" y="124" width="1222" height="850" key="new project wizard" timestamp="1586681403972">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="326" y="124" width="1222" height="850" key="new project wizard/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1586681403972" />
   </component>
 </project>

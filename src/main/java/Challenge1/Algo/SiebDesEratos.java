@@ -54,21 +54,13 @@ public class SiebDesEratos implements ICommand {
     public void execute() {
 
         System.out.println("Bitte geben Sie zwei Zahlen ein. Die Zahl kann nicht 1 sein. Der Algorithmus soll die Primzahlen zwischen den gegebenen Zahlen ausrechnen");
-        int[] nums = Console.input();
+        int nums = Console.askSingleInput();
 
-        if (nums[1] == 0 || nums[0] == 0) {
-            System.out.println("Bitte geben Sie die Zahlen erneut");
-            nums = Console.input();
-        } else if (nums[0] == nums[1]) {
-            System.out.println("Bitte geben Sie die Zahlen erneut");
-            nums = Console.input();
-        } else {
-            int[] array = createAnArray(nums[0], nums[1]);
-            von = array[0];
-            bis = array[array.length-1];
-            siebDesEratothenes(array);
-            System.out.println(toString());
-        }
+        int[] array = createAnArray(2, nums);
+        von = array[0];
+        bis = array[array.length-1];
+        siebDesEratothenes(array);
+        System.out.println(toString());
     }
 
 
@@ -76,6 +68,6 @@ public class SiebDesEratos implements ICommand {
     public String toString() {
         String toReturn = ergebnis.toString();
         ergebnis.clear();
-        return "Die Primzahlen von " + von + " bis " + bis + " sind: " + toReturn;
+        return "The prime numbers from " + von + " to " + bis + " are: " + toReturn;
     }
 }

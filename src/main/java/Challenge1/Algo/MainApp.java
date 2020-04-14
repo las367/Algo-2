@@ -33,13 +33,13 @@ public class MainApp {
         commands.add(cmdFactory.createGCDDivRestIteCmd());
         commands.add(new SiebDesEratos());
 
-        Scanner in = new Scanner(System.in);
         int userInput = 6;
 
 
         while (userInput != 0) {
             showMenu();
-            userInput = in.nextInt();
+            //using methods from Console class to add error handling and avoid repetition
+            userInput = Console.readIntegerFromStdin(Console.askInput());
 
             switch (userInput) {
                 case 1:

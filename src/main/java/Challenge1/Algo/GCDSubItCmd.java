@@ -23,7 +23,7 @@ public class GCDSubItCmd implements ICommand {
     @Override
     public void execute() {
 
-        int[] nums = Console.input();
+        int[] nums = Console.askTwoInputs();
         ergebnis = euclidSubstractionIterative(nums[0], nums[1]);
     }
 

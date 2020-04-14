@@ -21,7 +21,7 @@ public class GCDSubRecCmd implements ICommand {
     @Override
     public void execute() {
 
-        int[] nums = Console.input();
+        int[] nums = Console.askTwoInputs();
         ergebnis = euclidSubstractionRecursive(nums[0], nums[1]);
     }
 
