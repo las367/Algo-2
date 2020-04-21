@@ -15,47 +15,24 @@ public class Console {
         try {
             i = Integer.parseInt(text);
         } catch (NumberFormatException ex) {
-            System.out.println("Please enter another number");
-            return readIntegerFromStdin(askInput());
+            return readIntegerFromStdin(readStringFromStdin("Please enter another number"));
         }
 
         return i;
     }
 
-    public static String readStringFromStdin(String text) throws InputMismatchException {
+    public static String readStringFromStdin(String text) {
 
-        try {
-            //check if text is convertible to integer:: check if text is number
-            int temp = Integer.parseInt(text);
-            System.out.println("Please enter another number");
-            return readStringFromStdin(askInput());
+        System.out.println(text);
+        String dataInput = in.nextLine();
 
-        } catch (NumberFormatException e) {
-            //if Number Format Exception is thrown,
-            return text;
-        }
-    }
-
-    //Method to ask input from the user using console
-    public static String askInput() {
-
-        String toRet;
-
-        try {
-            toRet = in.nextLine();
-        } catch (InputMismatchException e) {
-            System.out.println("Please enter a number");
-            return askInput();
-        }
-
-        return toRet;
+        return dataInput;
     }
 
     //method to check if the number provided is negative
     private static int checkNegative(int num) {
         if (num <= 0) {
-            System.out.println("Please enter number bigger than 0");
-            return checkNegative(readIntegerFromStdin(askInput()));
+            return checkNegative(readIntegerFromStdin(readStringFromStdin("Please enter number bigger than 0")));
         } else {
             return num;
         }
@@ -63,8 +40,7 @@ public class Console {
 
     private static int checkGreaterThanTwo(int num) {
         if (num <= 2) {
-            System.out.println("Please enter number bigger than two");
-            return checkGreaterThanTwo(readIntegerFromStdin(askInput()));
+            return checkGreaterThanTwo(readIntegerFromStdin("Please enter a number bigger than two"));
         } else {
             return num;
         }
@@ -72,15 +48,15 @@ public class Console {
 
     public static int[] askTwoInputs() {
 
-        System.out.println("Enter number for x:");
+        String xAsString = readStringFromStdin("Please enter a number for x");
         //ask integer from the user
-        int x = readIntegerFromStdin(askInput());
+        int x = readIntegerFromStdin(xAsString);
         //check if x negative
         int num1 = checkNegative(x);
 
-        System.out.println("Enter number for y:");
         //same process above
-        int y = readIntegerFromStdin(askInput());
+        String yAsString = readStringFromStdin("Enter number for y:");
+        int y = readIntegerFromStdin(yAsString);
         int num2 = checkNegative(y);
 
         return new int[]{num1, num2};
@@ -88,9 +64,8 @@ public class Console {
 
     public static int askSingleInput() {
 
-        System.out.println("Please enter a number bigger than 2.");
-
-        int x = readIntegerFromStdin(askInput());
+        String xAsString = readStringFromStdin("Please enter a number bigger than 2.");
+        int x = readIntegerFromStdin(xAsString);
         int num = checkGreaterThanTwo(x);
 
         return num;

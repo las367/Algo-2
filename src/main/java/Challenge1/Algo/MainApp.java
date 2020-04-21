@@ -34,14 +34,16 @@ public class MainApp {
         commands.add(new SiebDesEratos());
 
         int userInput = 6;
+        Scanner in = new Scanner(System.in);
 
 
         while (userInput != 0) {
             showMenu();
-            //using methods from Console class to add error handling and avoid repetition
-            userInput = Console.readIntegerFromStdin(Console.askInput());
+            userInput = Console.readIntegerFromStdin(in.next());
 
             switch (userInput) {
+                case 0:
+                    break;
                 case 1:
                     ICommand cmdOne = commands.get(0);
                     useCommand(cmdOne);
